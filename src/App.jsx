@@ -22,19 +22,28 @@ function App() {
     <ContextApi>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<TodoList />} />
-          <Route path="/eventfunction" element={<EventFunction />} />
-          <Route path="/props" element={<Parent user={userName} />} />
-          <Route path="/event" element={<ParentEvent />} />
-          <Route path="/checkboxes" element={<HandleCheckBox />} />
-          <Route path="/radiobuttons" element={<RadioButtonHandle />} />
-          <Route path="/projects" element={<WtachPropsP />} />
-          <Route path="/loops" element={<NestedLoop />} />
-          <Route path="/hooks" element={<Hooks />} />
-          <Route path="/api" element={<FetchApi />} />
-          <Route path="/states" element={<UseState />} />
-          <Route path="/contextapi" element={<College />} />
-          <Route path="/*" element={<PageNotFound />} />
+          <Route path="/react-course/" element={<TodoList />} />
+          <Route
+            path="/react-course/eventfunction"
+            element={<EventFunction />}
+          />
+          <Route
+            path="/react-course/props"
+            element={<Parent user={userName} />}
+          />
+          <Route path="/react-course/event" element={<ParentEvent />} />
+          <Route path="/react-course/checkboxes" element={<HandleCheckBox />} />
+          <Route
+            path="/react-course/radiobuttons"
+            element={<RadioButtonHandle />}
+          />
+          <Route path="/react-course/projects" element={<WtachPropsP />} />
+          <Route path="/react-course/loops" element={<NestedLoop />} />
+          <Route path="/react-course/hooks" element={<Hooks />} />
+          <Route path="/react-course/api" element={<FetchApi />} />
+          <Route path="/react-course/states" element={<UseState />} />
+          <Route path="/react-course/contextapi" element={<College />} />
+          <Route path="/react-course/*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
     </ContextApi>
