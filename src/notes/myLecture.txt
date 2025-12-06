@@ -1,0 +1,11 @@
+ 1                    click event and function call
+
+               difference b/w js funcyion call and react f call 
+               make function
+               make button and click event.
+               call function on click event.
+               call arrow function.
+               pass params with duntion call.
+                
+2     controlled component
+form value like input value and state value are going to controll so this is controll componenet 
